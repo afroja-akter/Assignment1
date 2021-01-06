@@ -1,4 +1,183 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;  
 }
+h1, h2{
+  font-family: 'Bebas Neue', cursive;
+}
+p,a ,h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  
+}
+
+/* nav bar style start*/
+
+.nav{
+  height: 100px;
+  
+}
+ ul {
+    list-style-type: none;
+    margin: 40px;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    
+  }
+  ul li{
+    display: inline-block;
+  }
+  li a {
+    
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color:tomato;
+  }
+
+ 
+/* nav bar style end*/
+
+/* header section style start*/
+
+.section-hieght{
+  height: 400px;
+  display: block;
+
+}
+h1{
+  font-size: 60px;
+  
+}
+.about{
+  font-size: 40px;
+  margin-top: 20px;
+}
+.high-light{
+  color: tomato;
+}
+.text1{
+  margin: 20px 0px;
+  font-size: 15px;
+}
+
+.content{
+  width: 30%;
+  margin-left: 10%;
+  margin-right: 5%;
+  padding-left: 2%;
+  float: left;
+}
+.content img{
+  width: 100%;
+}
+.button{
+  margin-top: 50px;
+}
+.link-button{
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  background-image: linear-gradient(45deg, #a366ff, #3d0099);
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
+/* header section style start*/
+
+/* working section start*/
+
+.working-section{
+  background:#faf9f7;
+  height: 700px;
+}
+
+.working-section-title{
+  
+  font-size: 40px;
+  font-weight: normal;
+  color:  #333333;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.work{
+ margin-left: 15%;
+ float: left;
+}
+.box{
+  width: 28%;
+  margin-right: 2%;
+  height: 80%;
+  padding: 15px;
+  clear: both;
+  display: inline-block;
+  background-color: white;
+  box-shadow: 3px 3px 40px #cccccc;
+  border-radius: 20px;
+
+}
+.box img{
+  width:100%
+}
+h3{
+  margin-top: 15px;
+}
+.text{
+  font-size: 13px;
+  margin: 10px 0px;
+}
+/* working section end*/
+
+/* conttact section start*/
+
+.contact-section{
+  height: 400px;
+}
+.chat-place{
+  height: 200px;
+  width: 800px;
+  margin-top: 80px ;
+  margin-left: 22%;
+  background-image: url(img/back-ground.png);
+  background-repeat: no-repeat;
+  background-size: 800px 200px;
+  clear: both;
+  padding: 60px 50px;
+  
+}
+.left-side{
+  float: left;
+  font-size: 50px;
+  color: white;
+}
+.right-side{
+  float: right;
+  padding: 15px 30px;
+  background-image: linear-gradient(45deg, lightSalmon, tomato);
+  border-radius: 5px;
+  color: white;
+   margin-top: 10px;
+  text-decoration: none;
+}
+
+.footer{
+  margin-top: 80px;
+  text-align: center;
+  
+}
+.address{
+  font-size: 30px;
+  text-align: center;
+  font-weight: 800;
+}
+.icon-img{
+  margin: 15px;
+}
+/* footer section end*/
